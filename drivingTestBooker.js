@@ -3,11 +3,11 @@
 var page = require('webpage').create(),
     server = require('webserver').create(),
     system = require('system'),
-	fs = require('fs'),
+    fs = require('fs'),
     url = 'https://driverpracticaltest.direct.gov.uk/',
 	
-	driverLicenceNumber = 'SURNA110045FM9AB',
-	preferredTestDate = '04/10/15';
+    driverLicenceNumber = 'SURNA110045FM9AB',
+    preferredTestDate = '04/10/15';
 
 checkCentre('Cambridge (Chesterton Road)', 12);
 		
